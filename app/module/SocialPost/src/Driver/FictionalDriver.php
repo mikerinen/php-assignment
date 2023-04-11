@@ -124,7 +124,7 @@ class FictionalDriver implements SocialDriverInterface
         //Todo: retrieve current user data from  an auth service stub
         $userData = [
             'email' => 'your@email.address',
-            'name'  => 'YourName',
+            'name' => 'Your Name',
         ];
 
         $response = $this->client->authRequest(self::REGISTER_TOKEN_URI, $userData);
